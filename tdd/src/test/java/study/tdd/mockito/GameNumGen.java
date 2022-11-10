@@ -1,2 +1,5 @@
-package study.tdd.mockito;public class GameNumGen {
+package study.tdd.mockito;
+
+public interface GameNumGen {
+    String generate(GameLevel level);
 }
